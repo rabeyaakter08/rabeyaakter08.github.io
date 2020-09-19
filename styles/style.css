@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,700);
+
+@font-face {
+	font-family: TymesLittleCaps;
+	src: url('../font/TymesLittleCaps.otf');
+}
+
+body {
+	background-color: #aaaaaa;
+	font: 14px 'Merriweather Sans';
+	height: 100%;
+	margin: auto;
+	width: 1200px;
+}
+
+h2 {
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+h3 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 25px;
+	font-weight: 300;
+	margin: 5px 0 0 0;
+}
+
+h4 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+h5 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+h6 {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0px 0 0 0;
+}
+
+a {
+	color: #362a94;
+	text-decoration: none;
+}
+
+p {
+	line-height: 20px;
+	margin: 0;
+	padding: 5px 0px 5px 0;
+	text-align: justify;
+}
+
+#menu-container {
+	/*padding: 1px 5px 5px 5px;*/
+	vertical-align: middle;
+	display: table;
+	text-align: center;
+	width: 1080px;
+	border-spacing: 1px;
+}
+
+#menu-container a {
+	background-color: gainsboro;
+	/*border: solid 1px lightblue;*/
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: 20px;
+        width: 140px;
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center
+	/*display: block;*/
+	/*margin: 5px 20px 5px 20px;*/
+	padding: 1px 5px 4px 2px;
+}
+#menu-container a:hover {
+	background-color: LightSteelBlue;
+	color: blue;
+	/*display:block;*/
+}
+
+#main-container {
+	background-color: lightgray;
+	
+	padding: 20px 0;
+	width: 1200px;
+}
+
+#container {
+	background-color: #f7f7f7;
+	/*width: 100%;*/
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left:30px;
+	margin-right:30px;
+}
+
+#header {
+	width: 100%;
+	display: table;
+	padding-top: 15px;
+}
+
+#header-photo, #intro, #header-description {
+	/*display: inline-block;
+	margin: 20px 20px;*/
+	vertical-align: top;
+	height: 100px;
+	padding: 10px;
+	display: table-cell;
+}
+
+#intro {
+	width: 400px;
+	padding-left:90px;
+	vertical-align: middle;
+	text-align: center;
+	padding-right: 50px;
+}
+
+#ra-photo {
+	/*border-radius: 2px;*/
+	border-color: cadetblue;
+	border-style: solid;
+	width: 150px;
+}
+
+#header-name {
+	color: darkslateblue;
+	font-family: TymesLittleCaps;
+	font-size: x-large;
+}
+
+#links {
+	margin-bottom: 8px;
+	text-align: center;
+	
+}
+
+#links a:hover {
+	background-color: LightSteelBlue;
+	color: blue;
+}
+.anchor { padding-top: 90px; }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	/*width: 100%;*/
+}
+
+/*.vline {
+	left:50%;
+	border-left: 2px solid black;
+	height: 100px;
+	position: absolute;
+	top: 70px;
+}*/
+
+
+.description {
+	margin: 0px 10px;
+	/*padding-bottom: 20px;*/
+}
+
+.separator {
+	border: solid 1px black;
+	/*margin: 2px 0px 10px 0px;*/
+}
+
+.section {
+	margin: 0px 10px;
+}
+
+#allsections {
+	padding-top: 0px;
+}
+
+.subsection {
+	margin-bottom: 5px;
+}
+
+#allsections .section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -40px; 
+  height: 40px; 
+  visibility: hidden; 
+}
+
+.hh {
+	color: rebeccapurple;
+	font-family: TymesLittleCaps;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0px 0 0 22px;
+}
+
+.list-item {
+	padding: 0 0 10px 0;
+}
+
+.double-column {
+	display: inline-block;
+}
+
+.right-column {
+	float: right;
+}
+
+.name-list {
+	margin-left: 5px;
+}
+
+#footer {
+	padding: 10px 0;
+}
